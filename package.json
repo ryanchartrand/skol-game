@@ -1,0 +1,12 @@
+{
+  "name": "skol-game",
+  "version": "1.0.0",
+  "description": "SKOL is a drinking card game. This app helps you manage the game's additional cards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

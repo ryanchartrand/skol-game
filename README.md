@@ -4,4 +4,4 @@ SKOL is a drinking card game. This app helps you manage the game's additional ca
 
 ## Installation
 
-TBD 
+Run `npm install`
