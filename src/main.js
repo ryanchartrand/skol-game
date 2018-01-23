@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const theCards = [];
+
 function RandomEvent() {
-  var theCards = [
+  theCards = [
     "Thor blesses you! Vikings gain 1 free loot.",
     "Recruit another captain!",
     "Captains are fired and replaced!",
