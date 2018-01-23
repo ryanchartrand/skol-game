@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const theCards = [];
+const randomCard = '';
 
 function RandomEvent() {
   theCards = [
@@ -20,7 +21,7 @@ function RandomEvent() {
     "Current captain captured more treasure, add 1 loot!",
     "One of the fallen captains returns for vengeance!",
   ];
-  var randomCard = theCards[Math.floor(Math.random()*theCards.length)];
+  randomCard = theCards[Math.floor(Math.random()*theCards.length)];
   return <h1>{randomCard}</h1>;
 }
 
